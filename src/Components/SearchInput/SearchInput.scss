@@ -1,0 +1,29 @@
+@import '../../Assets/Sass/variable.scss';
+
+.search {
+	position: relative;
+	width: 100%;
+	max-width: 830px;
+}
+
+.search__input {
+	width: 100%;
+	padding: 14px 25px;
+	background-color: #ebebeb;
+	color: black;
+	border: 1px solid #ebebeb;
+	border-radius: 22px;
+}
+
+.search .search__icon {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	display: block;
+}
+
+@media only screen and (max-width: 650px) {
+	.search {
+		display: none;
+	}
+}
