@@ -37,16 +37,16 @@ function Login() {
 						}}>
 						<TextField
 							type='text'
-							label='Phone number, email address'
+							label='Email:'
 							name='email'
-							autoComplete='off'
+							autoComplete='on'
 						/>
 
 						<TextField
 							type='password'
-							label='Password'
+							label='Password:'
 							name='password'
-							autoComplete='off'
+							autoComplete='on'
 						/>
 
 						<Button
